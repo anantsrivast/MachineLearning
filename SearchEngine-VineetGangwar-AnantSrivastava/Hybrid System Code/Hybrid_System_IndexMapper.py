@@ -16,7 +16,7 @@ from pymongo import MongoClient
 
 class IndexMapperNew:
     def __init__(self):
-        conn=boto.s3.connection.S3Connection('tesr')
+        conn=boto.s3.connection.S3Connection('tes   r')
         self.bucket=conn.get_bucket('srs-mids-anant5')
         
         
